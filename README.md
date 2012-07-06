@@ -5,6 +5,11 @@ dotfiles
 
 This project is a collections of dotfiles forked from https://github.com/deniscostadsc/dotfiles .
 
+> This is my prompt.
+>
+> ![PS1](https://github.com/zokis/dotfiles/raw/master/.terminal.png "PS1")
+>
+
 to download the project:
 
 ```bash
