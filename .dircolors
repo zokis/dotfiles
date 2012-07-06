@@ -163,11 +163,14 @@ EXEC 01;32
 .h    00;36
 .hpp  00;36
 .hxx  00;36
-.py   00;36
 .sh   00;36
 .vim  00;36
-.py   00;36
 .java 00;36
+.py   00;36
+
+# bytecodes
+.pyc   0;32
+.class 0;32
 
 # objects
 .a   00;33

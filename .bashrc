@@ -85,11 +85,6 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-# External config
-if [[ -r ~/.dircolors ]] && type -p dircolors >/dev/null; then
-  eval $(dircolors -b "$HOME/.dircolors")
-fi
-
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
@@ -141,6 +136,11 @@ fi
 # Python alises
 if [ -f ~/.aliases/python_aliases ]; then
     . ~/.aliases/python_aliases
+fi
+
+# External config
+if [[ -r ~/.dircolors ]] && type -p dircolors >/dev/null; then
+  eval $(dircolors -b "$HOME/.dircolors")
 fi
 
 function calc(){
