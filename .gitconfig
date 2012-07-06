@@ -2,6 +2,9 @@
 	name = Marcelo Tambalo
 	email = marcelo.zokis@gmail.com
 
+[github]
+    user = zokis
+
 [color]
     ui = auto
 
@@ -31,5 +34,5 @@
     smtpencryption = tls
     smtpuser = marcelo.zokis@gmail.com
 
-[github]
-    user = zokis
+[core]
+    excludesfile = ~/.gitignore
