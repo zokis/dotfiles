@@ -91,7 +91,7 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # alias sublime text 2
-alias sublime-text-2='subl'
+alias subl='sublime-text-2 &'
 
 # alias reload self
 alias rself='source ~/.bashrc'
