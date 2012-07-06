@@ -3,7 +3,7 @@ dotfiles
 
 ### @zokis's dotfiles
 
-This project is a collections of dotfiles.
+This project is a collections of dotfiles forked from https://github.com/deniscostadsc/dotfiles .
 
 to download the project:
 
