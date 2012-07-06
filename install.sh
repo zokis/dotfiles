@@ -10,6 +10,7 @@ function install() {
         --exclude "README.md" \
         --exclude "prepare_environment.sh" \
         --exclude "*.swp" \
+        --exclude ".terminal.png" \
         --exclude "*~" \
         -av . ~
 }
