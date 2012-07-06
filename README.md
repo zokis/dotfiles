@@ -5,7 +5,7 @@ dotfiles
 
 This project is a collections of dotfiles forked from https://github.com/deniscostadsc/dotfiles .
 
-> PS1 and PS2.
+> Welcome message, PS1 and PS2.
 >
 > ![PS1](https://github.com/zokis/dotfiles/raw/master/.terminal.png "PS1")
 >
