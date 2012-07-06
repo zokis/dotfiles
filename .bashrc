@@ -6,7 +6,7 @@
 [ -z "$PS1" ] && return
 
 # Welcome message 
-echo -ne "->"; date '+%A,%-d %B %Y'""
+echo -ne "->"; date '+%A,%-d %B %Y <> %T '""
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
@@ -83,6 +83,11 @@ if [ -x /usr/bin/dircolors ]; then
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
+fi
+
+# External config
+if [[ -r ~/.dircolors ]] && type -p dircolors >/dev/null; then
+  eval $(dircolors -b "$HOME/.dircolors")
 fi
 
 # some more ls aliases
