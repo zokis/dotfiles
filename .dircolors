@@ -171,6 +171,7 @@ EXEC 01;32
 # bytecodes
 .pyc   0;32
 .class 0;32
+.luac  0;32
 
 # objects
 .a   00;33
