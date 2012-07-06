@@ -17,9 +17,6 @@ function is_installed(){
 function __install(){
     app=$2
     case $1 in
-        r|ruby)
-            ( gem install $app && return 0 ) || return 1
-        ;;
         p|python)
             ( pip install $app && return 0 ) || return 1
         ;;
@@ -62,10 +59,8 @@ function install(){
 
 apps='python-pip
 terminator
-vim-gnome
 virtualbox
-ruby
-rubygems
+git
 '
 typeapp="system"
 

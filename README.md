@@ -17,7 +17,13 @@ or
 wget https://github.com/zokis/dotfiles/zipball/master
 ```
 
+
+
 install system applications:
+```bash
+cd dotfiles
+./prepare_environment.sh
+```
 
 install the dotfiles
 
