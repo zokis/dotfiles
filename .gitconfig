@@ -1,5 +1,35 @@
 [user]
 	name = Marcelo Tambalo
 	email = marcelo.zokis@gmail.com
+
 [color]
-	ui = true
+    ui = auto
+
+[color "diff"]
+    meta = blue 
+    frag = magenta
+    old = red bold
+    new = 40
+
+[color "branch"]
+    current = yellow reverse
+    local = yellow bold
+    remote = green bold
+    plain = red bold
+
+[color "status"]
+    added = yellow
+    changed = green bold
+    untracked = blue bold
+
+[push]
+    default = current
+
+[sendemail]
+    smtpserver = smtp.gmail.com
+    smtpserverport = 587
+    smtpencryption = tls
+    smtpuser = marcelo.zokis@gmail.com
+
+[github]
+    user = zokis
