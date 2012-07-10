@@ -17,6 +17,12 @@ function install() {
 
 read -p "Running this file, you'll override some config files. Do you want to continue? (y/n) "
 
-if [[ $REPLY =~ ^[yY] ]]; then
-	install	
+if [[ $1 =~ ^-f|--force$ ]]; then
+    install
+else
+    read -p "Running this file, you'll override some config files. Do you want to continue? (y/n) "
+    
+    if [[ $REPLY =~ ^[yY] ]]; then
+        install 
+    fi
 fi
