@@ -18,7 +18,7 @@ git clone https://github.com/zokis/dotfiles.git
 
 install system applications:
 ```bash
-cd | *dotfiles* |
+cd dotfiles
 sudo ./prepare_environment.sh
 ```
 
