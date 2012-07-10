@@ -19,6 +19,7 @@ shopt -s histappend
 HISTSIZE=5000
 HISTFILESIZE=5000
 HISTIGNORE='ls:history'
+HISTTIMEFORMAT="%d/%h/%y - %H:%M:%S "
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
