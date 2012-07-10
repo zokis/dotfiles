@@ -16,18 +16,10 @@ to download the project:
 git clone https://github.com/zokis/dotfiles.git
 ```
 
-or
-
-```bash
-wget https://github.com/zokis/dotfiles/zipball/master
-```
-
-
-
 install system applications:
 ```bash
 cd dotfiles
-./prepare_environment.sh
+sudo ./prepare_environment.sh
 ```
 
 install the dotfiles
