@@ -13,6 +13,8 @@ apt-get install -y python-pip
 echo '==='
 apt-get install -y terminator
 echo '==='
+apt-get install -y sublime-text-2
+echo '==='
 apt-get install -y virtualbox
 echo '==='
 apt-get install -y python-pygments
