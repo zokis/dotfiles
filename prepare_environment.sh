@@ -18,6 +18,10 @@ echo '==='
 apt-get install -y python-pygments
 echo '==='
 apt-get install -y bpython
+echo '==='
+apt-get install -y gitg
+echo '==='
+apt-get install -y nodejs
 
 if which pip > /dev/null; then
     pip install virtualenvwrapper
