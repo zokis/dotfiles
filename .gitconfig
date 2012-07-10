@@ -9,8 +9,8 @@
     ui = auto
 
 [color "diff"]
-    meta = blue 
-    frag = magenta
+    frag = blue reverse
+    meta = magenta reverse
     old = red bold
     new = 40 bold
 
