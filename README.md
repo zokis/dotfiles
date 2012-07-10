@@ -3,7 +3,7 @@ dotfiles
 
 ### @zokis's dotfiles
 
-This project is a collections of dotfiles forked from https://github.com/deniscostadsc/dotfiles .
+This project is a collections of dotfiles forked from https://github.com/deniscostadsc/dotfiles . I used just on Ubuntu.
 
 > Welcome message, PS1 and PS2.
 >
@@ -28,4 +28,3 @@ install the dotfiles
 ./install.sh
 source ~/.bashrc
 ```
-   
