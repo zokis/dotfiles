@@ -29,9 +29,10 @@ install the dotfiles
 source ~/.bashrc
 ```
 ## Aliases:
-### alias sublime text 2
+### Sublime text 2 Aliases
 * alias subl='sublime-text-2'
 * alias suble='sublime-text-2 &'
+
 ###Git Aliases
 * alias ga='git add'
 * alias gA='git add .'
@@ -53,3 +54,12 @@ source ~/.bashrc
 * alias grm='git rm'
 * alias grr='git remote rm'
 * alias gst='git status'
+
+### Python Django aliases
+* alias drs='python manage.py runserver'
+* alias dtest='python manage.py test'
+* alias dshell='python manage.py shell'
+* alias ddump='python manage.py dumpdata'
+* alias dload='python manage.py loaddata'
+#### If the South is installed
+* alias dmigr='python manage.py migrate'
