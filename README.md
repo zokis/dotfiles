@@ -61,5 +61,4 @@ source ~/.bashrc
 * alias dshell='python manage.py shell'
 * alias ddump='python manage.py dumpdata'
 * alias dload='python manage.py loaddata'
-#### If the South is installed
-* alias dmigr='python manage.py migrate'
+* alias dmigr='python manage.py migrate' # If the South is installed
