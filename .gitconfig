@@ -11,19 +11,19 @@
 [color "diff"]
     frag = blue reverse
     meta = magenta reverse
-    old = red bold
+    old = red blink
     new = 40 bold
 
 [color "branch"]
     current = yellow reverse
-    local = yellow bold
+    local = yellow ul
     remote = green bold
     plain = red bold
 
 [color "status"]
     added = yellow
-    changed = green bold
-    untracked = blue bold
+    changed = green ul
+    untracked = blue blink
 
 [push]
     default = current

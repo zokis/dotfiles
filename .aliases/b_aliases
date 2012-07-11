@@ -16,7 +16,7 @@ alias l='ls -CF'
 alias subl='sublime-text-2'
 alias suble='sublime-text-2 &'
 
-# alias reload self
+# alias reload self 
 alias rself='source ~/.bashrc'
 
 # Add an "alert" alias for long running commands.  Use like so:
