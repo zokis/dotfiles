@@ -28,12 +28,11 @@ install the dotfiles
 ./install.sh
 source ~/.bashrc
 ```
-### Aliases
-# alias sublime text 2
+## Aliases:
+### alias sublime text 2
 * alias subl='sublime-text-2'
 * alias suble='sublime-text-2 &'
-
-#Git Aliases
+###Git Aliases
 * alias ga='git add'
 * alias gA='git add .'
 * alias gau='git add -u'
