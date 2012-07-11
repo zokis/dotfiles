@@ -28,3 +28,29 @@ install the dotfiles
 ./install.sh
 source ~/.bashrc
 ```
+### Aliases
+# alias sublime text 2
+* alias subl='sublime-text-2'
+* alias suble='sublime-text-2 &'
+
+#Git Aliases
+* alias ga='git add'
+* alias gA='git add .'
+* alias gau='git add -u'
+* alias gb='git branch'
+* alias gc='git checkout'
+* alias gcl='git clone'
+* alias gct='git commit'
+* alias gcm='gct -m'
+* alias gcma='gct -am'
+* alias gcv='gct -v'
+* alias gd='git diff'
+* alias gl='git log'
+* alias glgol='gl --graph --decorate --pretty=oneline --abbrev-commit'
+* alias glgola='gl --graph --decorate --pretty=oneline --abbrev-commit --all'
+* alias gps='git push'
+* alias gpl='git pull'
+* alias gra='git remote add'
+* alias grm='git rm'
+* alias grr='git remote rm'
+* alias gst='git status'
