@@ -7,13 +7,15 @@ function exiting(){
 
 [ "$USER" != root ] && exiting "You are not root!"
 
+add-apt-repository ppa:webupd8team/sublime-text-2; apt-get update;
+
 apt-get install -y git
 echo '==='
 apt-get install -y python-pip
 echo '==='
 apt-get install -y terminator
 echo '==='
-apt-get install -y sublime-text-2
+apt-get install -y sublime-text
 echo '==='
 apt-get install -y virtualbox
 echo '==='
