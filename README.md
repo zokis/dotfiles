@@ -29,6 +29,16 @@ install the dotfiles
 source ~/.bashrc
 ```
 ## Aliases:
+### Bash Aliases
+* rself = 'source ~/.bashrc'
+* ls='ls --color=auto'
+* grep='grep --color=auto'
+* fgrep='fgrep --color=auto'
+* egrep='egrep --color=auto'
+* ll='ls -alF'
+* la='ls -A'
+* l='ls -CF'
+
 ### Sublime text 2 Aliases
 * subl='sublime-text-2'
 * suble='sublime-text-2 &'
