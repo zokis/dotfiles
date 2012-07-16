@@ -28,9 +28,13 @@ echo '==='
 apt-get install -y gitg
 echo '==='
 apt-get install -y nodejs
-
+echo '==='
 if which pip > /dev/null; then
+<<<<<<< HEAD
     pip install ipython
+    echo '==='
     pip install pep8
+    echo '==='
     pip install virtualenvwrapper
+
 fi
