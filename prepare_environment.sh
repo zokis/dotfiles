@@ -35,5 +35,4 @@ if which pip > /dev/null; then
     pip install pep8
     echo '==='
     pip install virtualenvwrapper
-
 fi
