@@ -5,25 +5,22 @@ dotfiles
 
 This project is a collections of dotfiles forked from https://github.com/deniscostadsc/dotfiles . I used just on Ubuntu.
 
-> ##### 'Tutorial'
->
-> ![Tutorial](https://github.com/zokis/dotfiles/raw/master/.terminal.png "Tutorial")
->
-
 to download the project:
 
 ```bash
 git clone https://github.com/zokis/dotfiles.git
 ```
 
-install system applications:
+## 'Tutorial'
+![Tutorial](https://github.com/zokis/dotfiles/raw/master/.terminal.png "Tutorial")
+
+###### install system applications:
 ```bash
 cd dotfiles
 sudo ./prepare_environment.sh
 ```
 
-install the dotfiles
-
+###### install the dotfiles
 ```bash
 ./install.sh
 source ~/.bashrc
