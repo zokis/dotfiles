@@ -11,6 +11,8 @@ add-apt-repository ppa:webupd8team/sublime-text-2; apt-get update;
 
 apt-get install -y git
 echo '==='
+apt-get install -y python-dev
+echo '==='
 apt-get install -y python-pip
 echo '==='
 apt-get install -y terminator
@@ -28,6 +30,7 @@ echo '==='
 apt-get install -y nodejs
 
 if which pip > /dev/null; then
-    pip install virtualenvwrapper
     pip install ipython
+    pip install pep8
+    pip install virtualenvwrapper
 fi
