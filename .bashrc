@@ -42,6 +42,12 @@ case "$TERM" in
     xterm-color) color_prompt=yes;;
 esac
 
+function gitbranch(){
+    if git branch > /dev/null 2>&1; then
+        echo -e "$(git branch 2> /dev/null | grep "^*" | sed "s/^* //")"
+    fi
+}
+
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
 # should be on the output of commands, not on the prompt
@@ -60,7 +66,7 @@ fi
 
 if [ "$color_prompt" = yes ]; then
     #PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-    PS1='\[\033[1;37m\][\[\033[01;34m\]\w\[\033[1;37m\]]\[\033[00m\]$ '
+    PS1='\[\033[01;30m\]$(gitbranch)\[\033[1;37m\][\[\033[01;34m\]\w\[\033[1;37m\]]\[\033[00m\]$ '
     PS2="\[\033[1;37m\]:\[\033[00m\]> "
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
