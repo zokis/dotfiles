@@ -7,7 +7,7 @@ This project is a collections of dotfiles forked from https://github.com/denisco
 
 > ##### 'Tutorial'
 >
-> ![Welcome message, PS1 and PS2.](https://github.com/zokis/dotfiles/raw/master/.terminal.png "Welcome message, PS1 and PS2.")
+> ![Tutorial](https://github.com/zokis/dotfiles/raw/master/.terminal.png "Tutorial")
 >
 
 to download the project:
@@ -30,7 +30,7 @@ source ~/.bashrc
 ```
 ## Aliases:
 ### Bash Aliases
-* rself = 'source ~/.bashrc'
+* rself='source ~/.bashrc'
 * ls='ls --color=auto'
 * grep='grep --color=auto'
 * fgrep='fgrep --color=auto'
@@ -72,3 +72,6 @@ source ~/.bashrc
 * ddump='python manage.py dumpdata'
 * dload='python manage.py loaddata'
 * dmigr='python manage.py migrate' # If the South is installed
+
+### git Branch on PS1
+![branch](https://github.com/zokis/dotfiles/raw/master/.git_img.png "branch")
