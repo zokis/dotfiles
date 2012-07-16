@@ -69,6 +69,6 @@ source ~/.bashrc
 * ddump='python manage.py dumpdata'
 * dload='python manage.py loaddata'
 * dmigr='python manage.py migrate' # If the South is installed
-
+____
 ### git Branch on PS1
 ![branch](https://github.com/zokis/dotfiles/raw/master/.git_img.png "branch")
