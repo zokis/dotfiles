@@ -7,6 +7,8 @@ function exiting(){
 
 [ "$USER" != root ] && exiting "You are not root!"
 
+apt-get update
+
 add-apt-repository ppa:webupd8team/sublime-text-2; apt-get update;
 
 apt-get install -y git
