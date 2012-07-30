@@ -31,6 +31,8 @@ apt-get install -y gitg
 echo '==='
 apt-get install -y nodejs
 echo '==='
+apt-get install -y conky
+echo '==='
 if which pip > /dev/null; then
     pip install ipython
     echo '==='
