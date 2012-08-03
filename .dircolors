@@ -169,6 +169,11 @@ EXEC 01;32
 .py   00;36
 .lua  00;36
 
+# web source code
+.html 00;36
+.css  00;36
+.js   00;36
+
 # bytecodes
 .pyc   0;32
 .class 0;32
