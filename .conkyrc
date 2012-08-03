@@ -21,7 +21,6 @@ default_outline_color white
 default_bar_size 150 5
 default_gauge_size 20 20
 imlib_cache_size 0
-draw_shades no
 alignment top_right
 gap_x 5
 gap_y 35
@@ -30,8 +29,8 @@ uppercase no
 cpu_avg_samples 2
 override_utf8_locale no
 default_color ECEAE4
-color1 9f907d
-color2 01C400
+color1 9f917d
+color2 01C401
  
 # install:
 # sudo apt-get install hddtemp
@@ -66,12 +65,12 @@ ${color}${fs_bar 5,300 /}
  
 ${font AvantGardeLTMedium:bold:size=10}${color Tan1}Networking ${color slate grey}${hr 2}${font}
 ${if_existing /proc/net/route wlan0}${color1}Ip     ${color}${alignr}${addr wlan0}
-${color1}Download   ${alignr}${color}${downspeed wlan0}${downspeedgraph wlan0 10,100}
-${color1}Upload     ${alignr}${color}${upspeed wlan0}${upspeedgraph wlan0 10,100}
+${color1}Download   ${alignr}${color}${downspeed wlan0}${downspeedgraph wlan0 10,100 115511 00fa00}
+${color1}Upload     ${alignr}${color}${upspeed wlan0}${upspeedgraph wlan0 10,100 115511 00fa00}
 ${color1}Total Down/Up  ${alignr}${color}${totaldown wlan0}${color1}/${color}${totalup wlan0}
 ${else}${if_existing /proc/net/route eth0}${color1}Ip       ${color}${alignr}${addr eth0}
-${color1}Download   ${alignr}${color}${downspeed eth0}${downspeedgraph eth0 10,100}
-${color1}Upload     ${alignr}${color}${upspeed eth0}${upspeedgraph eth0 10,100}
+${color1}Download   ${alignr}${color}${downspeed eth0}${downspeedgraph eth0 10,100 115511 00fa00}
+${color1}Upload     ${alignr}${color}${upspeed eth0}${upspeedgraph eth0 10,100 115511 00fa00}
 ${color1}Total Down/Up  ${alignr}${color}${totaldown eth0}${color1}/${color}${totalup eth0}${endif}${endif}
  
 ${font AvantGardeLTMedium:bold:size=10}${color Tan1}Top Processes ${color slate grey}${hr 2}${font}
