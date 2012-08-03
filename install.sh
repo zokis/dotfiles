@@ -17,10 +17,10 @@ function install() {
 
 read -p "Running this file, you'll override some config files. Do you want to continue? (y/n) "
 
-if [[ $1 =~ ^-f|--force$ ]]; then
+if [[ $1 =~ ^(-f|--force)$ ]]; then
     install
 else
-    if [[ $REPLY =~ ^[yY] ]]; then
+    if [[ $REPLY =~ ^[yY]$ ]]; then
         install 
     fi
 fi
