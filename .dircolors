@@ -167,6 +167,7 @@ EXEC 01;32
 .vim  00;36
 .java 00;36
 .py   00;36
+.lua  00;36
 
 # bytecodes
 .pyc   0;32
