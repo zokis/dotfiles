@@ -54,6 +54,12 @@ source ~/.bashrc
 * grm='git rm'
 * grr='git remote rm'
 * gst='git status'
+* gpsb='gps origin $(gitbranch)'
+* gplb='gpl origin $(gitbranch)'
+* gpsm='gps origin master'
+* gplm='gpl origin master'
+* gpso='gps origin'
+* gplo='gpl origin'
 
 ### Python Django Aliases
 * drs='python manage.py runserver'
