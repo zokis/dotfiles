@@ -11,20 +11,18 @@ to download the project:
 git clone https://github.com/zokis/dotfiles.git
 ```
 
-## 'Tutorial'
-![Tutorial](https://github.com/zokis/dotfiles/raw/master/.terminal.png "Tutorial")
-
 ###### install system applications:
 ```bash
 cd dotfiles
 sudo ./prepare_environment.sh
 ```
-
 ###### install the dotfiles
 ```bash
 ./install.sh
 source ~/.bashrc
 ```
+
+-----------
 ## Aliases:
 ### Bash Aliases
 * rself='source ~/.bashrc'
@@ -35,11 +33,6 @@ source ~/.bashrc
 * ll='ls -alF'
 * la='ls -A'
 * l='ls -CF'
-
-### Sublime text 2 Aliases
-* subl='sublime-text-2'
-* suble='sublime-text-2 &'
-
 ###Git Aliases
 * ga='git add'
 * gA='git add .'
