@@ -33,7 +33,8 @@ source ~/.bashrc
 * ll='ls -alF'
 * la='ls -A'
 * l='ls -CF'
-###Git Aliases
+
+### Git Aliases
 * ga='git add'
 * gA='git add .'
 * gau='git add -u'
