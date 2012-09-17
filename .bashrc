@@ -116,6 +116,11 @@ if [ -f ~/.aliases/python_aliases ]; then
     . ~/.aliases/python_aliases
 fi
 
+# Timer aliases
+if [ -f ~/.aliases/timer_aliases ]; then
+    . ~/.aliases/timer_aliases
+fi
+
 # External config
 if [[ -r ~/.dircolors ]] && type -p dircolors >/dev/null; then
   eval $(dircolors -b "$HOME/.dircolors")
@@ -129,3 +134,4 @@ function is_in(){
     grep $1 <<< $2 > /dev/null 2>&1 && return 0 || return 1
 }
 
+export CATALINA_HOME=/opt/tomcat7
