@@ -15,14 +15,21 @@ from utils.fonte import FonteZokis
 
 EXIT = 0
 ERROR = 2
-SUCSSES = 1
 
 
 class TermTimer(object):
-    def __init__(self, time=None, notnow=True, in_sec=False):
+    def __init__(self, time=None, notnow=True, in_sec=False, times=None):
         console.codes['bg_gray'] = '\x1b[01;40m'
         self.font = FonteZokis()
         self.timing = 5
+
+        if times and times <= 1:
+            print ('Usage: termtimer.py [options]\n' +
+                    '\n' +
+                    'termtimer.py: error: -x option require a value greater than 1')
+            sys.exit(ERROR)
+        self.times_fix = times and times - 1 or None
+        self.times = self.times_fix
         self.cls = self.font.cls
         if time:
             self.timing = time
@@ -67,17 +74,22 @@ class TermTimer(object):
             print "%s" % str_fim
         timer.sleep(0.5)
         self.cls()
-        self.restart()
+        if self.times <= 0:
+            self.restart()
+        else:
+            self.times -= 1
+            self.clocking()
 
     def restart(self):
         self.cls()
         print "%s" % console.reset_color()
         self.cls()
-
-        op = raw_input(console.colorize('green', 'Timing again? ') +
+        op = raw_input(console.colorize('green', 'Timing again? [the options remained the same] ') +
                        console.colorize('turquoise', '(y/n)') +
                        console.colorize('green', ': '))
         if op in ("y", "Y"):
+            if self.times_fix:
+                self.times = self.times_fix
             self.clocking()
         elif op in ("n", "N"):
             print console.reset_color()
@@ -115,17 +127,19 @@ def main(argv):
     opar.add_option("-n", "--notnow", dest="notnow",
                     help="the timer does not start now", default=False,
                     action="store_true")
+    opar.add_option("-x", "--times", dest="times",
+                    help="number(greater than 1) of times that the timer will run", type="int", default=None)
 
     options, args = opar.parse_args(argv)
 
     if options.sec:
-        tc = TermTimer(options.sec, options.notnow, True)
+        tc = TermTimer(options.sec, options.notnow, True, options.times)
     elif options.min:
-        tc = TermTimer(options.min, options.notnow, False)
+        tc = TermTimer(options.min, options.notnow, False, options.times)
     else:
-        tc = TermTimer()
+        tc = TermTimer(times=options.times)
     tc.clocking()
-    sys.exit(SUCSSES)
+    sys.exit(EXIT)
 
 if __name__ == '__main__':
     main(sys.argv[1:])
