@@ -30,7 +30,7 @@ source ~/.bashrc
 * grep='grep --color=auto'
 * fgrep='fgrep --color=auto'
 * egrep='egrep --color=auto'
-* ll='ls -alF'
+* ll='ls -AhlF'
 * la='ls -A'
 * l='ls -CF'
 
