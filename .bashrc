@@ -100,6 +100,7 @@ export HISTTIMEFORMAT="%d/%h/%y - %H:%M:%S "
 
 # Virtualenv Wrapper
 export WORKON_HOME='~/Envs'
+export VIRTUALENVWRAPPER_LOG_DIR='~/EnvsLogs'
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
     . /usr/local/bin/virtualenvwrapper.sh
 else
