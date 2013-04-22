@@ -1,0 +1,9 @@
+{
+	"color_scheme": "Packages/Theme - Zokis/Color Schemes/Monokai Zokis.tmTheme",
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Zokis.sublime-theme"
+}

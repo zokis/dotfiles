@@ -1,0 +1,1378 @@
+{
+	"folder_history":
+	[
+		"/home/znc/projetos/django-pessoas",
+		"/home/znc/projetos/sos-gerencial/novo",
+		"/home/znc/.config/sublime-text-2/Packages/Theme - Zokis",
+		"/home/znc/projetos/python-bitbucket-api",
+		"/home/znc/projetos/tnc-pbt",
+		"/home/znc/projetos/sigef-destinacao",
+		"/home/znc/projetos/django-bootstrap-toolkit",
+		"/home/znc/projetos/sos-gerencial/novo/sosgerencial",
+		"/home/znc/projetos/tnc-pbt/pbt"
+	],
+	"last_window_id": 18,
+	"settings":
+	{
+		"new_window_height": 480.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"Pess",
+						"PessoaJuridica"
+					],
+					[
+						"obje",
+						"objects"
+					]
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 375.0,
+				"selected_items":
+				[
+					[
+						"Packa",
+						"Package Control: Install Package"
+					],
+					[
+						"Pack",
+						"Package Control: Install Package"
+					],
+					[
+						"Pac",
+						"Preferences: Package Control Settings – Default"
+					]
+				],
+				"width": 435.0
+			},
+			"console":
+			{
+				"height": 153.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/znc/projetos/sigef-destinacao/destinacao/destinacao/settings/base.py",
+				"/home/znc/projetos/sigef-destinacao/destinacao/pessoas/forms.py",
+				"/home/znc/projetos/sigef-destinacao/destinacao/destinacao/sistema/views.py",
+				"/home/znc/projetos/sigef-destinacao/destinacao/destinacao/sistema/models.py",
+				"/home/znc/projetos/sigef-destinacao/destinacao/destinacao/sistema/admin.py",
+				"/home/znc/.config/terminator/config",
+				"/home/znc/projetos/projetos_subl/PBT.sublime-workspace",
+				"/home/znc/.config/sublime-text-2/Packages/Theme - Default/Default.sublime-theme",
+				"/home/znc/.config/sublime-text-2/Packages/Theme - Zokis/Zokis.sublime-theme",
+				"/home/znc/projetos/tnc-pbt/pbt/programa/admin.py",
+				"/home/znc/.config/sublime-text-2/Packages/Whitespaces/Default (Linux).sublime-keymap",
+				"/home/znc/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+				"/home/znc/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/znc/AutoPep8",
+				"/home/znc/.config/sublime-text-2/Packages/Theme - Zokis/Widgets - Zokis.stTheme",
+				"/home/znc/.config/sublime-text-2/Packages/Theme - Zokis/Widget.sublime-settings",
+				"/home/znc/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/znc/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/znc/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/znc/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+				"/home/znc/.config/sublime-text-2/Packages/User/Package Control.sublime-settings"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"if PESSOA_IS_ABSTRACT:",
+					"Exclude",
+					"pessoa",
+					"user",
+					"Zoki",
+					"ProKit/",
+					"Theme - Aqua",
+					"ProKit",
+					"FFF",
+					"Theme - Default",
+					"p"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 35.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 112.0
+			},
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"sistemaa",
+						"destinacao/destinacao/sistema/admin.py"
+					],
+					[
+						"sismode",
+						"destinacao/destinacao/sistema/models.py"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+					[
+						"",
+						"/home/znc/sublimeprojects/sublime-zokis-theme.sublime-project"
+					]
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 242.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 640.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"Pess",
+						"PessoaJuridica"
+					],
+					[
+						"Pe",
+						"PessoaFisica"
+					],
+					[
+						"Pes",
+						"PessoaFisica"
+					],
+					[
+						"obje",
+						"objects"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/znc/projetos/django-pessoas/django_pessoas/django_pessoas/models.py",
+					"settings":
+					{
+						"buffer_size": 638,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/znc/projetos/django-pessoas/django_pessoas/django_pessoas/forms.py",
+					"settings":
+					{
+						"buffer_size": 2865,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/znc/projetos/django-pessoas/django_pessoas/django_pessoas/views.py",
+					"settings":
+					{
+						"buffer_size": 2724,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/znc/projetos/django-pessoas/django_pessoas/django_pessoas/urls.py",
+					"settings":
+					{
+						"buffer_size": 3318,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/znc/projetos/django-pessoas/django_pessoas/pessoas/models.py",
+					"settings":
+					{
+						"buffer_size": 7387,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/znc/projetos/django-pessoas/django_pessoas/pessoas/forms.py",
+					"settings":
+					{
+						"buffer_size": 4639,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/znc/projetos/django-pessoas/django_pessoas/pessoas/views.py",
+					"settings":
+					{
+						"buffer_size": 6464,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 375.0,
+				"selected_items":
+				[
+					[
+						"Packa",
+						"Package Control: Install Package"
+					],
+					[
+						"Pack",
+						"Package Control: Install Package"
+					],
+					[
+						"Pac",
+						"Preferences: Package Control Settings – Default"
+					]
+				],
+				"width": 435.0
+			},
+			"console":
+			{
+				"height": 153.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/znc/projetos/django-pessoas/django_pessoas/pessoas/views.py",
+				"/home/znc/projetos/django-pessoas/django_pessoas/django_pessoas/models.py",
+				"/home/znc/projetos/django-pessoas/django_pessoas/django_pessoas/forms.py",
+				"/home/znc/projetos/django-pessoas/django_pessoas/django_pessoas/views.py",
+				"/home/znc/projetos/django-pessoas/django_pessoas/django_pessoas/urls.py",
+				"/home/znc/projetos/django-pessoas/django_pessoas/pessoas/models.py",
+				"/home/znc/projetos/django-pessoas/django_pessoas/pessoas/forms.py",
+				"/home/znc/projetos/django-pessoas/django_pessoas/django_pessoas/templates/django_pessoas/home_abstract.html",
+				"/home/znc/projetos/django-pessoas/django_pessoas/django_pessoas/templates/django_pessoas/home.html",
+				"/home/znc/projetos/django-pessoas/django_pessoas/pessoas/templates/pessoas/pessoa_fisica_search_form.html",
+				"/home/znc/projetos/django-pessoas/django_pessoas/pessoas/templates/pessoas/pessoa_fisica_form_com_conjuge.html",
+				"/home/znc/projetos/django-pessoas/django_pessoas/django_pessoas/settings.py",
+				"/home/znc/projetos/sigef-destinacao/destinacao/destinacao/settings/base.py",
+				"/home/znc/projetos/sigef-destinacao/destinacao/pessoas/forms.py",
+				"/home/znc/projetos/sigef-destinacao/destinacao/destinacao/sistema/views.py",
+				"/home/znc/projetos/sigef-destinacao/destinacao/destinacao/sistema/models.py",
+				"/home/znc/projetos/sigef-destinacao/destinacao/destinacao/sistema/admin.py",
+				"/home/znc/.config/terminator/config",
+				"/home/znc/projetos/projetos_subl/PBT.sublime-workspace",
+				"/home/znc/.config/sublime-text-2/Packages/Theme - Default/Default.sublime-theme",
+				"/home/znc/.config/sublime-text-2/Packages/Theme - Zokis/Zokis.sublime-theme",
+				"/home/znc/projetos/tnc-pbt/pbt/programa/admin.py",
+				"/home/znc/.config/sublime-text-2/Packages/Whitespaces/Default (Linux).sublime-keymap",
+				"/home/znc/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+				"/home/znc/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/znc/AutoPep8",
+				"/home/znc/.config/sublime-text-2/Packages/Theme - Zokis/Widgets - Zokis.stTheme",
+				"/home/znc/.config/sublime-text-2/Packages/Theme - Zokis/Widget.sublime-settings",
+				"/home/znc/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/znc/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/znc/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/znc/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+				"/home/znc/.config/sublime-text-2/Packages/User/Package Control.sublime-settings"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"pessoa-fisica",
+					"PessoaJuridicaCadastraRepresentanteLegalForm",
+					"META",
+					"cliente",
+					"fisica",
+					"_com_conjuge",
+					"Exclude",
+					"class Pessoa",
+					"if PESSOA_IS_ABSTRACT:",
+					"Exclude",
+					"pessoa",
+					"user",
+					"Zoki",
+					"ProKit/",
+					"Theme - Aqua",
+					"ProKit",
+					"FFF",
+					"Theme - Default",
+					"p"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/znc/projetos/django-pessoas/django_pessoas/django_pessoas/models.py",
+							"settings":
+							{
+								"buffer_size": 638,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501",
+										"E123",
+										"E124",
+										"E125",
+										"E126",
+										"E127",
+										"E128"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Python/Python.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/znc/projetos/django-pessoas/django_pessoas/django_pessoas/forms.py",
+							"settings":
+							{
+								"buffer_size": 2865,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2559,
+										2559
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501",
+										"E123",
+										"E124",
+										"E125",
+										"E126",
+										"E127",
+										"E128"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 858.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/znc/projetos/django-pessoas/django_pessoas/django_pessoas/views.py",
+							"settings":
+							{
+								"buffer_size": 2724,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										176,
+										176
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501",
+										"E123",
+										"E124",
+										"E125",
+										"E126",
+										"E127",
+										"E128"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/znc/projetos/django-pessoas/django_pessoas/django_pessoas/urls.py",
+							"settings":
+							{
+								"buffer_size": 3318,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										169,
+										169
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501",
+										"E123",
+										"E124",
+										"E125",
+										"E126",
+										"E127",
+										"E128"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 4,
+							"file": "/home/znc/projetos/django-pessoas/django_pessoas/pessoas/models.py",
+							"settings":
+							{
+								"buffer_size": 7387,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										299,
+										299
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501",
+										"E123",
+										"E124",
+										"E125",
+										"E126",
+										"E127",
+										"E128"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/znc/projetos/django-pessoas/django_pessoas/pessoas/forms.py",
+							"settings":
+							{
+								"buffer_size": 4639,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										891,
+										891
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501",
+										"E123",
+										"E124",
+										"E125",
+										"E126",
+										"E127",
+										"E128"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2244.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/znc/projetos/django-pessoas/django_pessoas/pessoas/views.py",
+							"settings":
+							{
+								"buffer_size": 6464,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										548,
+										548
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501",
+										"E123",
+										"E124",
+										"E125",
+										"E126",
+										"E127",
+										"E128"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1056.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 35.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.51875,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 112.0
+			},
+			"position": "0,1,0,0,0,0,0,0,0,1920,1080",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"sistemaa",
+						"destinacao/destinacao/sistema/admin.py"
+					],
+					[
+						"sismode",
+						"destinacao/destinacao/sistema/models.py"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+					[
+						"",
+						"/home/znc/projetos/sigef-destinacao/destinacao/pessoas/django_pessoas.sublime-project"
+					]
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 233.0,
+			"status_bar_visible": true,
+			"window_id": 18,
+			"workspace_name": "/home/znc/projetos/sigef-destinacao/destinacao/pessoas/django_pessoas.sublime-project"
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/home/znc/projetos/sigef-destinacao/destinacao/pessoas/django_pessoas.sublime-project",
+			"/home/znc/sublimeprojects/destinacao.sublime-project",
+			"/home/znc/sublimeprojects/sublime-zokis-theme.sublime-project",
+			"/home/znc/sublimeprojects/sos-gerencial.sublime-project",
+			"/home/znc/sublimeprojects/PBT.sublime-project",
+			"/home/znc/sublimeprojects/bitbucket-api.sublime-project"
+		]
+	}
+}

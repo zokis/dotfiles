@@ -1,4 +1,8 @@
 [global_config]
+  title_transmit_fg_color = "#289ed6"
+  title_inactive_fg_color = "#617F8D"
+  title_transmit_bg_color = "#000000"
+  title_inactive_bg_color = "#555558"
 [keybindings]
 [profiles]
   [[default]]
@@ -7,12 +11,18 @@
     background_type = transparent
     scrollback_infinite = True
     foreground_color = "#00ff00"
+    cursor_color = "#ccfcff"
+    cursor_shape = ibeam
 [layouts]
   [[default]]
-    [[[child1]]]
-      type = Terminal
-      parent = window0
     [[[window0]]]
       type = Window
       parent = ""
+    [[[child0]]]
+      type = VPaned
+      parent = window0
+    [[[child1]]]
+      type = HPaned
+      parent = child0
+      profile = default
 [plugins]
