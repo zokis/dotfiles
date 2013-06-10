@@ -7,7 +7,7 @@ function exiting(){
 
 [ "$USER" != root ] && exiting "You are not root!"
 
-add-apt-repository ppa:webupd8team/sublime-text-2; apt-get update;
+add-apt-reposiotry ppa:richarvey/nodejs;add-apt-repository ppa:webupd8team/sublime-text-2; apt-get update;
 
 apt-get install -y git
 echo '==='
@@ -28,6 +28,8 @@ echo '==='
 apt-get install -y gitg
 echo '==='
 apt-get install -y nodejs
+echo '==='
+apt-get install -y npm
 echo '==='
 apt-get install -y conky
 echo '==='
