@@ -7,7 +7,12 @@ function exiting(){
 
 [ "$USER" != root ] && exiting "You are not root!"
 
-add-apt-reposiotry ppa:richarvey/nodejs;add-apt-repository ppa:webupd8team/sublime-text-2; apt-get update;
+add-apt-reposiotry ppa:richarvey/nodejs;
+add-apt-repository ppa:webupd8team/sublime-text-2;
+apt-get update;
+
+apt-get remove unity-lens-shopping;
+gsettings set com.canonical.desktop.interface scrollbar-mode normal
 
 apt-get install -y git
 echo '==='
@@ -18,20 +23,18 @@ echo '==='
 apt-get install -y terminator
 echo '==='
 apt-get install -y sublime-text
-echo '==='
-apt-get install -y virtualbox
+# echo '==='
+# apt-get install -y virtualbox
 echo '==='
 apt-get install -y python-pygments
 echo '==='
 apt-get install -y bpython
-echo '==='
-apt-get install -y gitg
-echo '==='
-apt-get install -y nodejs
-echo '==='
-apt-get install -y npm
-echo '==='
-apt-get install -y conky
+# echo '==='
+# apt-get install -y gitg
+# echo '==='
+# apt-get install -y nodejs
+# echo '==='
+# apt-get install -y npm
 echo '==='
 if which pip > /dev/null; then
     pip install ipython
