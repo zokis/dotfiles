@@ -1,6 +1,6 @@
 [user]
-	name = Marcelo Tambalo
-	email = marcelo.zokis@gmail.com
+    name = Marcelo Tambalo
+    email = marcelo.zokis@gmail.com
 
 [github]
     user = zokis
@@ -36,3 +36,7 @@
 
 [core]
     excludesfile = ~/.gitignore
+[alias]
+    happify = !sh -c \"ln -s ~/.git/hooks/post-{commit,update} .git/hooks\"
+[init]
+    templatedir = ~/.git_template
