@@ -11,6 +11,10 @@ to download the project:
 git clone https://github.com/zokis/dotfiles.git
 ```
 
+or
+
+https://github.com/zokis/dotfiles/archive/master.zip
+
 ###### install system applications:
 ```bash
 cd dotfiles
