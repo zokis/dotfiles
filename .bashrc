@@ -84,8 +84,8 @@ xterm*|rxvt*)
 esac
 
 # Bash aliases
-if [ -f ~/.aliases/b_aliases ]; then
-    . ~/.aliases/b_aliases
+if [ -f ~/.aliases/bash.sh ]; then
+    . ~/.aliases/bash.sh
 fi
 
 # enable programmable completion features (you don't need to enable
@@ -108,18 +108,13 @@ else
 fi
 
 # Git aliases
-if [ -f ~/.aliases/git_aliases ]; then
-    . ~/.aliases/git_aliases
+if [ -f ~/.aliases/git.sh ]; then
+    . ~/.aliases/git.sh
 fi
 
 # Python alises
-if [ -f ~/.aliases/python_aliases ]; then
-    . ~/.aliases/python_aliases
-fi
-
-# Timer aliases
-if [ -f ~/.aliases/timer_aliases ]; then
-    . ~/.aliases/timer_aliases
+if [ -f ~/.aliases/python.sh ]; then
+    . ~/.aliases/python.sh
 fi
 
 # External config
