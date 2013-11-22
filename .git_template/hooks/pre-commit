@@ -15,12 +15,6 @@ CHECKS = [
         'print_filename': True,
     },
     {
-        'output': 'Checking for ipdbs...',
-        'command': 'grep -n "import ipdb" %s',
-        'ignore_files': ['.*pre-commit'],
-        'print_filename': True,
-    },
-    {
         'output': 'Checking for print statements...',
         'command': 'grep -n print %s',
         'match_files': ['.*\.py$'],
@@ -33,14 +27,6 @@ CHECKS = [
         'match_files': ['.*(templates|static).*(js|htm|html)$'],
         'print_filename': True,
     },
-    # {
-    #     'output': 'Running Jshint...',
-    #     # By default, jshint prints 'Lint Free!' upon success. We want to filter
-    #     # this out.
-    #     'command': 'jshint %s | grep -v "Lint Free!"',
-    #     'match_files': ['.*yipit/.*\.js$'],
-    #     'print_filename': False,
-    # },
 ]
 
 
