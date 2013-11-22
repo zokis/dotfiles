@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# Original at http://tech.yipit.com/2011/11/16/183772396/
 
 import os
 import re
@@ -57,32 +58,20 @@ def check_files(files, check):
     return result
 
 
-def main(all_files):
+def main():
     # Stash any changes to the working tree that are not going to be committed
     subprocess.call(
         ['git', 'stash', '-u', '--keep-index'], stdout=subprocess.PIPE)
 
     files = []
-    if all_files:
-        for root, dirs, file_names in os.walk('.'):
-            for file_name in file_names:
-                files.append(os.path.join(root, file_name))
-    else:
-        p = subprocess.Popen(
-            ['git', 'status', '--porcelain'], stdout=subprocess.PIPE)
-        out, err = p.communicate()
-        for line in out.splitlines():
-            match = modified.match(line)
-            if match:
-                files.append(match.group('name'))
+    p = subprocess.Popen(['git', 'status', '--porcelain'], stdout=subprocess.PIPE)
+    out, err = p.communicate()
+    for line in out.splitlines():
+        match = modified.match(line)
+        if match:
+            files.append(match.group('name'))
 
     result = 0
-
-    print 'Running Django Code Validator...'
-    return_code = subprocess.call(
-        '$VIRTUAL_ENV/bin/python manage.py validate', shell=True)
-    result = return_code or result
-
     for check in CHECKS:
         result = check_files(files, check) or result
 
@@ -95,7 +84,4 @@ def main(all_files):
 
 
 if __name__ == '__main__':
-    all_files = False
-    if len(sys.argv) > 1 and sys.argv[1] == '--all-files':
-        all_files = True
-    main(all_files)
+    main()
