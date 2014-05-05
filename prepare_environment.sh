@@ -26,8 +26,6 @@ echo '==='
 apt-get install -y python-pygments
 echo '==='
 apt-get install -y bpython
-# echo '==='
-# apt-get install -y virtualbox
 echo '==='
 apt-get install -y nodejs
 echo '==='
@@ -40,4 +38,6 @@ if which pip > /dev/null; then
     pip install pep8
     echo '==='
     pip install virtualenvwrapper
+    echo '==='
+    pip install youtube-dl
 fi
