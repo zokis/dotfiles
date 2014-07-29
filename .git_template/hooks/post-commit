@@ -1,3 +1,3 @@
 #!/bin/bash
 
-aplay $(/home/zokis/.git_sounds/playsound.py) > /dev/null 2>&1 &
+aplay $(~/.git_sounds/playsound.py) > /dev/null 2>&1 &
