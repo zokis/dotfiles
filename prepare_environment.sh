@@ -7,6 +7,7 @@ function exiting(){
 
 [ "$USER" != root ] && exiting "You are not root!"
 
+apt-get install aplay;
 apt-get install python-software-properties;
 add-apt-repository ppa:chris-lea/node.js; apt-get update;
 add-apt-repository ppa:webupd8team/sublime-text-3; apt-get update;
