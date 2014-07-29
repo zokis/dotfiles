@@ -6,7 +6,7 @@ from random import choice
 
 def main():
     files = []
-    for root, dirs, file_names in os.walk('/home/zokis/.git_sounds'):
+    for root, dirs, file_names in os.walk('~/.git_sounds'):
         for file_name in file_names:
             if file_name[-4:] == '.wav':
                 files.append(os.path.join(root, file_name))
