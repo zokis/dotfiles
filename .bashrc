@@ -130,4 +130,12 @@ function is_in(){
     grep $1 <<< $2 > /dev/null 2>&1 && return 0 || return 1
 }
 
+function dorkon(){
+    sudo docker start $1 && sudo docker attach $1
+}
+
+
 export CATALINA_HOME=/opt/tomcat7
+
+#PIP downlaod CACHE
+export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache
