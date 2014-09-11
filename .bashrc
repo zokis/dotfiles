@@ -134,8 +134,14 @@ function dorkon(){
     sudo docker start $1 && sudo docker attach $1
 }
 
+function up(){
+    local x='';
+    for i in $(seq ${1:-1});
+        do x="$x../";
+    done;
 
-export CATALINA_HOME=/opt/tomcat7
+    cd $x;
+}
 
 #PIP downlaod CACHE
 export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache
