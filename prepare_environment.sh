@@ -12,7 +12,7 @@ apt-get install python-software-properties;
 add-apt-repository ppa:chris-lea/node.js; apt-get update;
 add-apt-repository ppa:webupd8team/sublime-text-3; apt-get update;
 apt-get remove unity-lens-shopping;
-gsettings set com.canonical.desktop.interface scrollbar-mode normal
+gsettings set com.canonical.desktop.interface scrollbar-mode normal;
 
 apt-get install -y git
 echo '==='
