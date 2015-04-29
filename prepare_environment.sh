@@ -7,13 +7,17 @@ function exiting(){
 
 [ "$USER" != root ] && exiting "You are not root!"
 
-apt-get install aplay;
-apt-get install python-software-properties;
 add-apt-repository ppa:chris-lea/node.js; apt-get update;
 add-apt-repository ppa:webupd8team/sublime-text-3; apt-get update;
-apt-get remove unity-lens-shopping;
 gsettings set com.canonical.desktop.interface scrollbar-mode normal;
+gsettings set com.canonical.Unity.Lenses remote-content-search none;
+apt-get remove -y unity-lens-shopping;
+echo 127.0.0.1 productsearch.ubuntu.com | tee -a /etc/hosts;
 
+apt-get install aplay;
+echo '==='
+apt-get install python-software-properties;
+echo '==='
 apt-get install -y git
 echo '==='
 apt-get install -y python-dev

@@ -1,0 +1,41 @@
+alias gplb='git pull origin $(current_branch)'
+compdef gplb=git
+alias gpsb='git push origin $(current_branch)'
+compdef gpsb=git
+alias ga='git add'
+compdef ga=git
+alias gA='git add .'
+compdef gA=git
+alias gb='git branch'
+compdef gb=git
+alias gc='git checkout'
+compdef gc=git
+alias gcl='git clone'
+compdef gcl=git
+alias gct='git commit'
+compdef gct=git
+alias gcm='git commit -m'
+compdef gcm=git
+alias gd='git diff'
+compdef gd=git
+alias gps='git push'
+compdef gps=git
+alias gpl='git pull'
+compdef gpl=git
+alias grm='git rm'
+compdef grm=git
+alias gst='git status'
+compdef gst=git
+
+alias mkcd='mkdir -p $1 && cd $1'
+
+
+alias rmpyc='find . -name "*.pyc" | xargs rm -v'
+
+# Django aliases
+alias drs='python manage.py runserver'
+alias dsdb='python manage.py syncdb'
+alias dtest='python manage.py test'
+alias dshell='python manage.py shell'
+alias ddump='python manage.py dumpdata'
+alias dload='python manage.py loaddata'
