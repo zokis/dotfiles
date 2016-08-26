@@ -83,6 +83,11 @@ xterm*|rxvt*)
     ;;
 esac
 
+# Player aliases
+if [ -f ~/.aliases/player.sh ]; then
+    . ~/.aliases/player.sh
+fi
+
 # Bash aliases
 if [ -f ~/.aliases/bash.sh ]; then
     . ~/.aliases/bash.sh
